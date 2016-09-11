@@ -6,7 +6,7 @@
 }
 
 body {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 h1 {
@@ -17,7 +17,9 @@ h1 {
 p.highlight {
   clear: right;
   padding: 15px;
-  font-size: 0.25em;
+  /* With 25%, it is difficult to read the text. The font is resized, but I use
+     35% instead */
+  font-size: 0.35em;
 }
 
 .greybox {
@@ -55,6 +57,7 @@ p.highlight {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  padding: 10px;
 }
 
 /********** Large devices only **********/
